@@ -278,6 +278,20 @@ Ghostty is available in the official package repository.
 eopkg install ghostty
 ```
 
+### Ubuntu
+
+Ghostty is available in the official package repository starting from Ubuntu 26.04.
+
+> [!NOTE]
+> The official repository might not always package the most recent version of
+> Ghostty. If your Ghostty version is not up to date, you could also consider
+> installing the [community .deb package](#debian-and-ubuntu) instead, though
+> the usual risks of using unofficial packages still apply.
+
+```sh
+apt install ghostty
+```
+
 ### Void Linux
 
 Ghostty is available in the official package repository.
@@ -345,9 +359,16 @@ rpm-ostree refresh-md && \
 rpm-ostree install ghostty
 ```
 
-### Ubuntu
+### Debian and Ubuntu
 
-An Ubuntu package (.deb) is available from
+> [!NOTE]
+> Ghostty is included in the official Ubuntu package repository starting
+> from Ubuntu 26.04, and you can install it by following the instructions for
+> the [official Ubuntu package](#ubuntu). However, the community package could
+> be in some cases more up-to-date than the official package, and is also the
+> only prebuilt option for older Ubuntu versions.
+
+Ghostty is available as a community-built .deb package for Ubuntu and Debian from
 [ghostty-ubuntu](https://github.com/mkasberg/ghostty-ubuntu) on GitHub. You can install it using the following command:
 
 ```sh
